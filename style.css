@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 12vw 12vw 10vw 10vw 12vw;
+    grid-template-rows: 10vw 8vw 8vw 12vw;
+    grid-template-areas: "box1 box2 box2 box3 box3"
+                         "box1 box4 box5 box5 box6"
+                         "box7 box4 box5 box5 box6"
+                         "box7 box8 box8 box9 box6";
+    grid-gap: 8px;
+    border: black solid;
+    padding: 5%;
+}
+
+.box1 {
+    background-color: rgb(150, 71, 240);
+    grid-area: box1;
+    border: black solid;
+}
+
+.box2 {
+    background-color: rgb(230, 18, 106);
+    grid-area: box7;
+    border: black solid;
+}
+
+.box3 {
+    background-color: rgb(49, 209, 43);
+    grid-area: box2;
+    border: black solid;
+    
+}
+
+.box4 {
+    background-color: rgb(15, 17, 141);
+    grid-area: box4;
+    border: black solid;
+}
+
+.box5 {
+    background-color: rgb(150, 71, 240);
+    grid-area: box8;
+    border: black solid;
+}
+
+.box6 {
+    background-color: rgb(230, 18, 106);
+    grid-area: box5;
+    border: black solid;
+}
+
+.box7 {
+    background-color: rgb(49, 209, 43);
+    grid-area: box9;
+    border: black solid;
+}
+
+.box8 {
+    background-color: rgb(15, 17, 141);
+    grid-area: box3;
+    border: black solid;
+}
+
+.box9 {
+    background-color: rgb(150, 71, 240);
+    grid-area: box6;
+    border: black solid;
+}
